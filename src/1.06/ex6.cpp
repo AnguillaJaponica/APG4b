@@ -16,7 +16,12 @@ int main() {
     cout << A * B << endl;
   }
   else if (op == "/") {
-    cout << A / B << endl;
+    if (B == 0) {
+      cout << "error" << endl;
+    }
+    else {
+      cout << A / B << endl;
+    }
   }
   else {
     cout << "error" << endl;
