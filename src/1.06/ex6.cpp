@@ -8,22 +8,17 @@ int main() {
 
   if (op == "+") {
     cout << A + B << endl;
-  }
-  else if (op == "-") {
+  } else if (op == "-") {
     cout << A - B << endl;
-  }
-  else if (op == "*") {
+  } else if (op == "*") {
     cout << A * B << endl;
-  }
-  else if (op == "/") {
+  } else if (op == "/") {
     if (B == 0) {
       cout << "error" << endl;
-    }
-    else {
+    } else {
       cout << A / B << endl;
     }
-  }
-  else {
+  } else {
     cout << "error" << endl;
   }
 }

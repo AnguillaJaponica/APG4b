@@ -11,25 +11,21 @@ int main() {
 
   if (a) {
     cout << "At";
-  }
-  else {
+  } else {
     cout << "Yo";
   }
 
   if (!a && b) {
     cout << "Bo";
-  }
-  else if (!b || c) {
+  } else if (!b || c) {
     cout << "Co";
   }
 
   if (a && b && c) {
     cout << "foo!";
-  }
-  else if (true && false) {
+  } else if (true && false) {
     cout << "yeah!";
-  }
-  else if (!a || c) {
+  } else if (!a || c) {
     cout << "der";
   }
   cout << endl;
