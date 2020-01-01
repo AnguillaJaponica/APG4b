@@ -11,8 +11,8 @@ int main() {
 
   // dataの中で隣り合う等しい要素が存在するなら"YES"を出力し、そうでなければ"NO"を出力する
   // ここにプログラムを追記
-  for (int i = 0; i < 3;i++) {
-    if (data.at(i) != data.at(i+1)){
+  for (int i = 0; i < 4;i++) {
+    if (data.at(i) == data.at(i+1)){
       ans = "YES";
     }
   }
