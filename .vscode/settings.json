@@ -1,7 +1,10 @@
 {
     "C_Cpp.clang_format_style": "Google",
-    "editor.formatOnSave": true,
     "editor.formatOnType": true,
+    "editor.renderLineHighlight": "all", 
+    "editor.folding": true,
+    "editor.links": true,
+    "editor.lineNumbers": "on", 
     "[cpp]": {
         "editor.tabSize": 2
     },
