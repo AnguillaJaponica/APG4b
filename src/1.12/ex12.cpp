@@ -14,5 +14,5 @@ int main() {
       count--;
     }
   }
-  cout << count + 1 << endl;
+  std::cout << count + 1 << endl;
 }
